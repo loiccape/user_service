@@ -1,0 +1,22 @@
+{
+  "name": "user_service",
+  "version": "1.0.0",
+  "description": "1. Objectif\r Le but de ce microservice est de gérer les utilisateurs de manière efficace et sécurisée. Il permettra de créer, lire, mettre à jour et supprimer des utilisateurs. Ce service pourra être connecté à d'autres microservices pour créer une application complète.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "express": "^4.19.2",
+    "joi": "^17.13.3",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.5.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.4"
+  }
+}
